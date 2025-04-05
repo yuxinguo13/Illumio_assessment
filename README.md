@@ -20,8 +20,9 @@ The Flow Log Parser processes AWS VPC Flow Logs (default format, version 2) and 
 
 No external libraries are required, only the Python standard library.
 
-## Usage
+## Usage (after git clone the repository)
 ```
+cd Illumio_assessment
 python parse_log.py
 ```
 
