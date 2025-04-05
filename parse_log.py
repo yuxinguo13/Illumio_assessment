@@ -5,7 +5,7 @@ def load_protocol_map():
     """Load protocol numbers mapping from CSV file."""
     protocol_map = dict()
     # from https://www.iana.org/assignments/protocol-numbers/protocol-numbers-1.csv
-    with open("files/protocol-numbers.csv", 'r') as file:
+    with open("files/protocol_numbers.csv", 'r') as file:
         for line in file:
             fields = line.strip().split(',')
             # Only grab protocol number
